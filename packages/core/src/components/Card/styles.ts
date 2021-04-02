@@ -39,7 +39,7 @@ export const styleSheetContent: StyleSheet = ({ color, pattern, ui, unit }) => (
 
     '@selectors': {
       ':hover, :focus': {
-        backgroundColor: color.accent.bgHover,
+        background: color.accent.bgHover,
         outline: 'none',
       },
     },
